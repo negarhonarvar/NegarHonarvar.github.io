@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Negar Honarvar Sedighian / Senior Computer Engineering Student"
+title                    : "Negar Honarvar Sedighian"
 title_separator          : "-"
 name                     : &name "Negar Honarvar"
 description              : &description "Senior Bachelor Computer Engeeniring Student at Shahid Beheshti University of Tehran, Iran"
