@@ -1,293 +1,73 @@
 ---
-permalink: /markdown/
-title: "Markdown"
+permalink: /projects/
+title: "Projects"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Locations of key files/directories
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+<p align="center">
+  <a href="#ai-projects">Artificial Intelligence</a> - 
+  <a href="#software-projects">Software Development</a> - 
+  <a href="#hardware-projects">Hardware Development</a>
+</p>
 
-## Tips and hints
 
-* Name a file ".md" to have it render in markdown, name it ".html" to render in HTML.
-* Go to the [commit list](https://github.com/academicpages/academicpages.github.io/commits/master) (on your repo) to find the last version Github built with Jekyll. 
-  * Green check: successful build
-  * Orange circle: building
-  * Red X: error
-  * No icon: not built
-* Academic Pages uses [Jekyll Kramdown](https://jekyllrb.com/docs/configuration/markdown/), GitHub Flavored Markdown (GFM) parser, which is similar to the version of Markdown used on GitHub, but may have some minor differences. 
-  * Some of emoji supported on GitHub should be supposed via the [Jemoji](https://github.com/jekyll/jemoji) plugin :computer:.
-  * The best list of the supported emoji can be found in the [Emojis for Jekyll via Jemoji](https://www.fabriziomusacchio.com/blog/2021-08-16-emojis_for_Jekyll/#computer) blog post.
+# Artificial Intelligence
 
-## Resources
- * [Liquid syntax guide](https://shopify.github.io/liquid/tags/control-flow/)
- * [MathJax Documentation](https://docs.mathjax.org/en/latest/)
-
-## MathJax 
-
-Support for MathJax Version 3.0 is included in the template:
-
-$$
-\displaylines{
-\nabla \cdot E= \frac{\rho}{\epsilon_0} \\\
-\nabla \cdot B=0 \\\
-\nabla \times E= -\partial_tB \\\
-\nabla \times B  = \mu_0 \left(J + \varepsilon_0 \partial_t E \right)
-}
-$$
+## Dynamic Attentive GNN for Cardiac MRI Reconstruction (On Going) [LINK](https://github.com/negarhonarvar/DynamicAttentiveGNNforCMRIRecon)
 
-The default delimiters of `$$...$$` and `\\[...\\]` are supported for displayed mathematics, while `\\(...\\)` should be used for in-line mathematics (ex., \\(a^2 + b^2 = c^2\\))
+* Implementation of a Dynamic Attentive Graph Neural Network for Cardiac MRI Reconstruction in a cascading manner.
+* Sensitivity map calculation is done according to Compressed Sensing theory using a UNet.
 
-**Note** that since Academic Pages uses Markdown which cases some interference with MathJax and LaTeX for escaping characters and new lines, although [some workarounds exist](https://math.codidact.com/posts/278763/278772#answer-278772).
+## Automated Stock Trading Strategy with DRL (Jun. 2024) [LINK](https://github.com/negarhonarvar/StockTrading_DRL)
 
-## Markdown guide
+* Designed a Cascading Long Short-Term Memory - Proximal Policy Optimization (PPO) model which uses LSTM
+layers to capture temporal dependencies in stock data and a PPO algorithm to optimize trading decisions.
 
-Academic Pages uses [kramdown](https://kramdown.gettalong.org/index.html) for Markdown rendering, which has some differences from other Markdown implementations such as GitHub's. In addition to this guide, please see the [kramdown Syntax page](https://kramdown.gettalong.org/syntax.html) for full documentation.  
+## Farsi News Classification (Mar. 2024) [LINK](https://github.com/negarhonarvar/Enhanced-News-Classification-On-Large-Dataset)
 
-### Header three
+ * The goal of this project is to develop a neural network model to classify news articles into thei respective categories.
+ * The dataset has been preprocessed with Tokenization and Feature Extraction.
 
-#### Header four
+## Guidance of a Quadcopter for Object Detection (Feb. 2024) [LINK](https://github.com/negarhonarvar/Robatics.git)
 
-##### Header five
+* Designed a controller for a quadcopter to control its flight over boxes in an urban environment and detect target
+clothing items.
 
-###### Header six
+## Tron Game Agent (May. 2023) [LINK](https://github.com/navidadkhah/TronGame)
 
-## Blockquotes
+* This game consists of two real-time agents that try to create more walls than their opponent while avoiding
+collisions with each other and the boundary walls. The Unity framework is based on Chillin’s monitor games.
+* The algorithm devised for this game is a combination of a Genetic Algorithm and Minmax, where the Minmax
+algorithm is used as the fitness function for the Genetic Algorithm.
 
-Single line blockquote:
 
-> Quotes are cool.
 
-## Tables
 
-### Table 1
+# Software Projects
 
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
+## CYK Algorithm for Parsing Context-Free Grammars (Jul. 2023) [LINK](https://github.com/navidadkhah/CYK-algorithm)
 
-### Table 2
+* Implemented the Cocke-Younger-Kasami (CYK) algorithm to parse and validate strings against context-free grammars.
+* Applied the algorithm to efficiently check whether a given string can be generated by a specific grammar, showcasing its application in syntactic analysis.
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | ce
-ll5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+## Restaurant Management System with Django and React (Nov. 2023) [LINK](https://github.com/navidadkhah/Restaurant-Management)
 
-## Definition Lists
+* Developed a web-based restaurant management system using Django for the backend and React for the frontend.
+* Implemented features for browsing restaurants, making reservations, and managing user roles with different access levels for customers, restaurant admins, and system admins.
 
-Definition List Title
-:   Definition list division.
+## Graph Simulation and Analysis (Jun. 2023) [LINK](https://github.com/navidadkhah/Graph_Simulation)
 
-Startup
-:   A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.
+* Developed simulations for various types of graphs, including Erdős–Rényi, Watts–Strogatz, and Barabási–Albert models.
+* Analyzed graph properties such as degree distribution, eigenvalue distribution, and algebraic connectivity, implementing methods for generating and simulating real-world graph behaviors.
 
-#dowork
-:   Coined by Rob Dyrdek and his personal body guard Christopher "Big Black" Boykins, "Do Work" works as a self motivator, to motivating your friends.
+# Hardware Projects
 
-Do It Live
-:   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one.
+## Doodle Jump Game Implementation in Assembly 8086 (Mar. 2023) [LINK](https://github.com/navidadkhah/Doodle-jump-game)
 
-## Unordered Lists (Nested)
-
-  * List item one 
-      * List item one 
-          * List item one
-          * List item two
-          * List item three
-          * List item four
-      * List item two
-      * List item three
-      * List item four
-  * List item two
-  * List item three
-  * List item four
-
-## Ordered List (Nested)
-
-  1. List item one 
-      1. List item one 
-          1. List item one
-          2. List item two
-          3. List item three
-          4. List item four
-      2. List item two
-      3. List item three
-      4. List item four
-  2. List item two
-  3. List item three
-  4. List item four
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-## Notices
-
-Basic notices or call-outs are supported using the following syntax:
-
-```markdown
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-```
-
-which wil render as:
-
-**Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
-{: .notice}
-
-### Footnotes
-
-Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
-
-```markdown
-This is the regular text.[^1] This is more regular text.[^note]
-
-[^1]: This is the footnote itself.
-[^note]: This is another footnote.
-```
-
-[^1]: Such as this footnote.
-[^note]: When using text for footnotes markers, no spaces are permitted in the name.
-
-## HTML Tags
-
-### Address Tag
-
-<address>
-  1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
-</address>
-
-### Anchor Tag (aka. Link)
-
-This is an example of a [link](http://github.com "Github").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
-
-*[CSS]: Cascading Style Sheets
-
-### Cite Tag
-
-"Code is poetry." ---<cite>Automattic</cite>
-
-### Code Tag
-
-You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
-
-You can also write larger blocks of code with syntax highlighting supported for some languages, such as Python:
-
-```python
-print('Hello World!')
-```
-
-or R:
-
-```R
-print("Hello World!", quote = FALSE)
-```
-
-### Details Tag (collapsible sections)
-
-The HTML `<details>` tag works well with Markdown and allows you to include collapsible sections, see [W3Schools](https://www.w3schools.com/tags/tag_details.asp) for more information on how to use the tag.
-
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-
-The source code:
-
-```HTML
-<details>
-  <summary>Collapsed by default</summary>
-  This section was collapsed by default!
-</details>
-```
-
-Or, you can leave a section open by default by including the `open` attribute in the tag:
-
-<details open>
-  <summary>Open by default</summary>
-  This section is open by default thanks to open in the &lt;details open&gt; tag!
-</details>
-
-
-### Emphasize Tag
-
-The emphasize tag should _italicize_ text.
-
-### Insert Tag
-
-This tag should denote <ins>inserted</ins> text.
-
-### Keyboard Tag
-
-This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` tag.
-
-### Preformatted Tag
-
-This tag styles large blocks of code.
-
-<pre>
-.post-title {
-  margin: 0 0 5px;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 1.2;
-  and here's a line of some really, really, really, really long text, just to see how the PRE tag handles it and to find out how it overflows;
-}
-</pre>
-
-### Quote Tag
-
-<q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
-
-### Strike Tag
-
-This tag will let you <strike>strikeout text</strike>.
-
-### Strong Tag
-
-This tag shows **bold text**.
-
-### Subscript Tag
-
-Getting our science styling on with H<sub>2</sub>O, which should push the "2" down.
-
-### Superscript Tag
-
-Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should lift the 2 up.
-
-### Variable Tag
-
-This allows you to denote <var>variables</var>.
-
-***
-**Footnotes**
-
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+* Created a version of the classic Doodle Jump game in Assembly 8086, implementing platform generation, player movement, and score tracking.
+* Developed the game mechanics to ensure smooth and responsive gameplay, with features such as random platform placement and increasing difficulty over time.
 
