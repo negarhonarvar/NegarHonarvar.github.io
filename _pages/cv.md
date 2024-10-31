@@ -20,10 +20,12 @@ redirect_from:
 - **GPA of last two years**: 18.23/20 (3.78/4)
 - Ranked **2nd** in admission among 90 accepted students.
 
-**Relevant Courses**:  
-- Fundamentals of Computer Vision, Fundamentals of Robotics, Deep Reinforcement Learning  
-- Machine Learning, Artificial Intelligence, Algorithms Design  
-- Computer Simulation, Statistics and Probability, Data Structures  
+**Relevant Courses**:(GPA 4/4)  
+- Fundamentals of Computer Vision
+- Fundamentals of Robotics
+- Deep Reinforcement Learning  
+- Machine Learning
+- Artificial Intelligence
 
 ---
 
