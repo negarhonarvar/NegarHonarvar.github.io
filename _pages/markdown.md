@@ -8,6 +8,21 @@ redirect_from:
 ---
 
 
+<table style="width:100%">
+ <tr>
+    <th><p align="center">
+  <a href="#ai-projects">Artificial Intelligence</a></p> -</th>
+  </tr>
+  <tr>
+    <th><p align="center">
+  <a href="#software-projects">Software Development</a></p> -</th>
+  </tr>
+  <tr>
+    <th><p align="center">
+  <a href="#hardware-projects">Hardware Development</a></p> -</th>
+  </tr>
+</table>
+
 <p align="center">
   <a href="#ai-projects">Artificial Intelligence</a> - 
   <a href="#software-projects">Software Development</a> - 
