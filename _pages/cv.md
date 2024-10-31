@@ -46,7 +46,7 @@ redirect_from:
 # Research Experience 
 
 **[Dynamic Attentive GNN for Cardiac MRI Reconstruction](https://github.com/negarhonarvar/DualAttentiveGNNforCMRIRecon)** — *In Process*  
-  - Currently working on Proposing of a Dynamic Attentive Graph Neural Network in a cascading manner for Cardiac MRI Reconstruction of undersampled CMRI images from CMRIxRecon dataset under supervision of DR. Mohsen Ebrahimi Moghaddam (Co Advised by DR. Shahabedin Nabavi).
+  - Currently working on Proposing a Dynamic Attentive Graph Neural Network in a cascading manner for Cardiac MRI Reconstruction of undersampled CMRI images from CMRIxRecon dataset under supervision of DR. Mohsen Ebrahimi Moghaddam (Co Advised by DR. Shahabedin Nabavi).
   - Sensitivity map calculation for accelerated images is performed using Compressed Sensing theory by a UNet.
 
 
