@@ -11,17 +11,23 @@ redirect_from:
   <table style="width:80%; border-collapse: collapse;">
     <tr>
       <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <p align = "center">
         <a href="#ai-projects" style="text-decoration: none; color: #333; font-size: 18px;">Artificial Intelligence</a>
+        </p>
       </th>
     </tr>
     <tr>
       <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <p align = "center">
         <a href="#software-projects" style="text-decoration: none; color: #333; font-size: 18px;">Software Development</a>
+        </p>
       </th>
     </tr>
     <tr>
       <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <p align = "center">
         <a href="#hardware-projects" style="text-decoration: none; color: #333; font-size: 18px;">Hardware Development</a>
+        </p>
       </th>
     </tr>
   </table>
