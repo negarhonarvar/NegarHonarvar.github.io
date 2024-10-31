@@ -7,22 +7,26 @@ redirect_from:
   - /markdown.html
 ---
 
-<p align="center">
-  <table style="width:100%">
- <tr>
-    <th><p align="center">
-  <a href="#ai-projects">Artificial Intelligence</a></p></th>
-  </tr>
-  <tr>
-    <th><p align="center">
-  <a href="#software-projects">Software Development</a></p></th>
-  </tr>
-  <tr>
-    <th><p align="center">
-  <a href="#hardware-projects">Hardware Development</a></p></th>
-  </tr>
-</table>
-</p>
+<div align="center">
+  <table style="width:80%; border-collapse: collapse;">
+    <tr>
+      <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <a href="#ai-projects" style="text-decoration: none; color: #333; font-size: 18px;">Artificial Intelligence</a>
+      </th>
+    </tr>
+    <tr>
+      <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <a href="#software-projects" style="text-decoration: none; color: #333; font-size: 18px;">Software Development</a>
+      </th>
+    </tr>
+    <tr>
+      <th style="padding: 15px; border: 1px solid #ddd; background-color: #f2f2f2;">
+        <a href="#hardware-projects" style="text-decoration: none; color: #333; font-size: 18px;">Hardware Development</a>
+      </th>
+    </tr>
+  </table>
+</div>
+
 
 
 # Artificial Intelligence
