@@ -69,7 +69,7 @@ layers to capture temporal dependencies in stock data and a PPO algorithm to opt
 * Controllers for e-puck in Webots enviroment using popular Localization,Planning and Navigation Algorithms.
 * The Controllers range from simple to more complex ones, providing beginners with better understanding of control process.
 
-## Tron Game Agent (May. 2023) [LINK](https://github.com/negarhonarvar/TronGame)
+## [Tron Game Agent (May. 2023)] (https://github.com/negarhonarvar/TronGame)
 
 * The algorithm devised for this game is a combination of a Genetic Algorithm and Minmax, where the Minmax
 algorithm is used as the fitness function for the Genetic Algorithm.
