@@ -7,26 +7,21 @@ redirect_from:
   - /markdown.html
 ---
 
-
-<table style="width:100%">
+<p align="center">
+  <table style="width:100%">
  <tr>
     <th><p align="center">
-  <a href="#ai-projects">Artificial Intelligence</a></p> -</th>
+  <a href="#ai-projects">Artificial Intelligence</a></p></th>
   </tr>
   <tr>
     <th><p align="center">
-  <a href="#software-projects">Software Development</a></p> -</th>
+  <a href="#software-projects">Software Development</a></p></th>
   </tr>
   <tr>
     <th><p align="center">
-  <a href="#hardware-projects">Hardware Development</a></p> -</th>
+  <a href="#hardware-projects">Hardware Development</a></p></th>
   </tr>
 </table>
-
-<p align="center">
-  <a href="#ai-projects">Artificial Intelligence</a> - 
-  <a href="#software-projects">Software Development</a> - 
-  <a href="#hardware-projects">Hardware Development</a>
 </p>
 
 
