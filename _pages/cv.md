@@ -9,56 +9,63 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<embed src="{{ site.baseurl }}/files/Navid_Dadkhah_CV.pdf" width="600" height="700" type='application/pdf'>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+\vspace*{-1.05mm}
+\makecvtitle
+\vspace*{-10mm}
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+\section{Education}
+\item{\cventry{Sep. 2020 to Feb. 2025[Expected]}{Bachelor of Science in Computer Engineering}{\href{https://www.sbu.ac.ir/web/cse}{Shahid Behehshti University} }{Tehran, Iran}{}{\vspace{3pt} 
+\begin{itemize}
+\item \textbf{Cumulative GPA: 17.42/20 (3.67/4)}
+\item \textbf{GPA of last two years: 18.23/20 (3.78/4)}
+\item Ranked \textbf{\nth{2}} in admission among 90 accepted students.
+\end{itemize}
+}}
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+{}{Relevant Courses: GPA: 4/4}
+\vspace{-1.0em}\begin{small}
+ \begin{multicols}{3}
+    \begin{itemize}
+- Fundamentals of Computer Vision
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Fundamentals of Robotics
+
+- Deep Reinforcement Learning 
+
+- Machine Learning
+
+- Artificial Intelligence
+
+- Algorithms Design
+
+- Computer Simulation
+
+- Statistics and Probability 
+
+- Data Structures 
+
+    \end{itemize}
+    \end{multicols}\end{small}
+\item{\cventry{Sep. 2017 to Jun. 2020}{High School Diploma in Mathematics}
+{\href{https://en.wikipedia.org/wiki/National_Organization_for_Development_of_Exceptional_Talents}{Farzanegan 1 Secondary School}}{Mashhad, Iran}{}{\vspace{3pt} 
+\begin{itemize}
+    \item \textbf{Diploma GPA: 19.98/20 (4.0/4.0)}
+    \item Ranked \textbf{\nth{321}} in University Entrance Exam in Iran
+    \item Ranked \textbf{\nth{1}} in admission among Sampad students in Khorasan Province.
+\end{itemize}
+}}
+
+\end{itemize}
+
+
+\section{Research Interests}
+
+\item
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.45\linewidth}@{}>{\raggedright\arraybackslash}p{0.1\linewidth}>{\raggedright\arraybackslash}p{0.45\textwidth}@{}} 
+     - Applicaton of Deep  Learning Methods in Health Care&& - Graph Neural Networks Methods and Application\\ 
+     - Accelerated MRI Reconstruction   && - Image Super Resolution and Denoising\\ 
+\end{tabular}
+\vspace{3pt}
+
