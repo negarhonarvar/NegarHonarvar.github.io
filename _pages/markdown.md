@@ -17,7 +17,7 @@ redirect_from:
 
 ## [Dynamic Attentive GNN for Cardiac MRI Reconstruction (On Going)](https://github.com/negarhonarvar/DynamicAttentiveGNNforCMRIRecon)
 
-* Implementation of a Dynamic Attentive Graph Neural Network for Cardiac MRI Reconstruction in a cascading manner.
+* Proposing a Dynamic Attentive Graph Neural Network for Cardiac MRI Reconstruction in a cascading manner.
 * Sensitivity map calculation is done according to Compressed Sensing theory using a UNet.
 
 ## [Automated Stock Trading Strategy with DRL (Jun. 2024)](https://github.com/negarhonarvar/StockTrading_DRL)
