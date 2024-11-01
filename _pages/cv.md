@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="{{ site.baseurl }}/files/Navid_Dadkhah_CV.pdf" width="600" height="700" type='application/pdf'>
+<embed src="{{ site.baseurl }}/files/NegarHonarvar_cv.pdf" width="600" height="700" type='application/pdf'>
 
 # Education
 
