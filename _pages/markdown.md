@@ -7,9 +7,9 @@ redirect_from:
   - /markdown.html
 ---
 <p align="center">
-  <a href="#Artificial Intelligence">Artificial Intelligence</a> - 
-  <a href="#sSoftware Development">Software Development</a> - 
-  <a href="#Hardware Developmen">Hardware Development</a>
+  <a href="#Artificial-Intelligence">Artificial Intelligence</a> - 
+  <a href="#sSoftware-Development">Software Development</a> - 
+  <a href="#Hardware-Developmen">Hardware Development</a>
 </p>
 
 
