@@ -23,11 +23,10 @@ redirect_from:
 - Managed access levels for company members in various departments to available resources and information in each section by utilizing Windows Azure.
 - Identified and analyzed potential weaknesses and breaches in the network.
 
-### Dotin School
-**Network Security Intern**  
+### Network Security Intern**  
 *Tehran, Iran*  
 *Feb. 2023 to Jun. 2023*  
-[Dotin](https://www.dotin.ir/)
+[Dotin School](https://www.dotin.ir/)
 
 - Completed an internship at Dotin School boot camp for Network Security.
 - Learned about different types of security vulnerabilities, how to identify risks, respond to incidents, and perform penetration testing.
