@@ -9,7 +9,7 @@ redirect_from:
 <p align="center">
   <a href="#artificial-intelligence">Artificial Intelligence</a> - 
   <a href="#software-development">Software Development</a> - 
-  <a href="#hardware-developmen">Hardware Development</a>
+  <a href="#hardware-development">Hardware Development</a>
 </p>
 
 
