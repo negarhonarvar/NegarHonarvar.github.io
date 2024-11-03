@@ -52,12 +52,12 @@ layers to capture temporal dependencies in stock data and a PPO algorithm to opt
 ## [Bug Algorithms (Jan. 2024)](https://github.com/negarhonarvar/Bug-Algorithms)
 
 * Implementation of Bug1 , Bug2 and Wall following algorithms for GCTronic' e-puck from webots.
-* Each of this algorithms will successfully guide the robot through a maza.
+* Each of this algorithms will successfully guide the robot through a maze.
 * Map of the maze is generated with Bug2 and split-and-merge algorithms.
 
 ## [Machine Learning Algorithms(Jan. 2024)](https://github.com/negarhonarvar/Machine-Learning)
 
-* This Repository includes famouse calssification and regression algorithms, each one applied to solve a related problem.
+* This Repository includes famous calssification and regression algorithms, each one applied to solve a related problem.
 * In each problem, Feature Engineering methods are used to prepare raw data for machine learning models by transforming it into relevant features.
 * The algorithms include K-Nearest Neighbors, Support Vector Machine (SVM), Decision Tree, and Gradient Descent for supervised learning, while Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is used as an unsupervised algorithm.
   
