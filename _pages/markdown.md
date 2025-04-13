@@ -15,10 +15,16 @@ redirect_from:
 
 # Artificial Intelligence
 
-## [Dynamic Attentive GNN for Cardiac MRI Reconstruction (On Going)](https://github.com/negarhonarvar/DynamicAttentiveGNNforCMRIRecon)
+## [Equation Solving With OCR (Apr. 2025)](https://github.com/negarhonarvar/Equation-Solving-OCR)
+
+* This Project implements a full pipeline to classify and solve equations from images using deep learning and OCR techniques. 
+* It supports both handwritten and typed expressions and reconstructs them into solvable strings.
+
+## [Dynamic Attentive GNN for Cardiac MRI Reconstruction (Feb. 2025)](https://github.com/negarhonarvar/DAGMRNet)
 
 * Proposing a Dynamic Attentive Graph Neural Network for Cardiac MRI Reconstruction in a cascading manner.
 * Sensitivity map calculation is done according to Compressed Sensing theory using a UNet.
+* The proposed model successfully reconstructs Cine CMRI and achieves state-of-the-art accuracy with less computation expence compared to previous successfull models.
 
 ## [Automated Stock Trading Strategy with DRL (Jun. 2024)](https://github.com/negarhonarvar/StockTrading_DRL)
 
