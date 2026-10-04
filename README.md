@@ -82,6 +82,15 @@ The homepage at `/` uses `_layouts/portfolio-home.html`, selected by
 It uses the existing GitHub Pages/Jekyll deployment without additional dependencies.
 The downloadable CV is `files/NegarHonarvar.pdf`.
 
+The DAGMRNet graph uses eight SVG viewport crops from the author's public
+[architecture figure](https://github.com/user-attachments/assets/30f8b733-4845-4fbe-b42b-ede9e59f98c4),
+preserved unchanged in `assets/portfolio/dagm-architecture.png`. These are image
+patches from one example, not separate subjects or a live reconstruction.
+`assets/portfolio/graph.js` animates nodes, attached edges, and connection pulses;
+it stops offscreen, in hidden tabs, on pause, and with reduced motion enabled.
+Ten browser checks passed under both normal and reduced-motion settings,
+including real-time movement, pause/resume, and 320/390/1440px sizing.
+
 The Ask AI dialog is explicitly an interface preview. Topic buttons show prepared
 answers grounded in the supplied CV and existing biography. Free-form questions
 explain that live AI is not connected. No questions are stored or transmitted.
