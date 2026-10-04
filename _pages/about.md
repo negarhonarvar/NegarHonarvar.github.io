@@ -1,7 +1,8 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+layout: portfolio-home
+title: "Negar Honarvar — AI Engineer & Researcher"
+excerpt: "Research, engineering, and a curiosity for what comes next."
 author_profile: true
 redirect_from: 
   - /about/

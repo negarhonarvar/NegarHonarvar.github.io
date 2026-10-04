@@ -75,3 +75,26 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
+# Personal portfolio redesign
+
+The homepage at `/` uses `_layouts/portfolio-home.html`, selected by
+`_pages/about.md`. Styling and browser interactions live in `assets/portfolio/`.
+It uses the existing GitHub Pages/Jekyll deployment without additional dependencies.
+The downloadable CV is `files/NegarHonarvar.pdf`.
+
+The Ask AI dialog is explicitly an interface preview. Topic buttons show prepared
+answers grounded in the supplied CV and existing biography. Free-form questions
+explain that live AI is not connected. No questions are stored or transmitted.
+A future live assistant needs a separate server endpoint; API keys must never be
+added to this public repository or browser JavaScript.
+
+Certificate entries currently contain text from the CV. Replace or supplement
+them with actual degree/certificate scans when provided; no certificate images
+have been fabricated. The site continues to use `negarhonarvar.github.io`.
+
+Local verification: JavaScript syntax and whitespace checks passed; headless
+Edge checks covered 320px, 390px, and 1440px overflow, local assets, section links,
+the CV response, assistant interactions, focus return, and safe text rendering.
+Desktop and narrow-screen screenshots were inspected. A full Jekyll build was
+not run locally because Ruby/Bundler are unavailable; verify the GitHub Pages
+build before merging the redesign branch.
