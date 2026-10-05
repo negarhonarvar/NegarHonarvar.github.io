@@ -21,7 +21,7 @@ repository               : "negarhonarvar/negarhonarvar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "negar-portrait.jpg"
   name             : "Negar Honarvar Sedighian"
   pronouns         : # example: "she/her"  
   bio              : "Bachelor of Science in Computer Engineering with a focus on Computer Vision, Graph Neural Networks, and Reinforcement Learning."
