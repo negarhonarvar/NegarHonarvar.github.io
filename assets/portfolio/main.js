@@ -16,21 +16,39 @@
   }
   const art = document.querySelector('.hero-art');
   const hero = document.querySelector('.hero');
+  const header = document.querySelector('.header');
+  const shapes = [
+    { element: art.querySelector('.orb-one'), x: 180, y: 330, scale: 0.22, turn: -14 },
+    { element: art.querySelector('.orb-two'), x: -150, y: 100, scale: -0.16, turn: 18 },
+    { element: art.querySelector('.orb-three'), x: 220, y: -280, scale: 0.4, turn: -24 },
+    { element: art.querySelector('.orbit'), x: -100, y: -210, scale: 0.16, turn: 65 }
+  ];
   let framePending = false;
   function updateShapes() {
     framePending = false;
     if (reducedMotion.matches) {
-      art.style.transform = '';
       art.style.opacity = '';
+      shapes.forEach(({ element }) => {
+        ['translate', 'scale', 'rotate'].forEach(property => element.style.removeProperty(property));
+      });
       return;
     }
-    const progress = Math.max(0, Math.min(1, -hero.getBoundingClientRect().top / hero.offsetHeight));
-    art.style.transform = `translateY(${progress * 160}px) scale(${1 + progress * 0.18}) rotate(${progress * 8}deg)`;
-    art.style.opacity = String(1 - progress * 0.95);
+    const progress = Math.max(0, Math.min(1,
+      (header.offsetHeight - hero.getBoundingClientRect().top) / hero.offsetHeight));
+    const horizontalRange = Math.min(1, hero.clientWidth / 1000);
+    shapes.forEach(({ element, x, y, scale, turn }) => {
+      element.style.translate = `${(x * progress * horizontalRange).toFixed(2)}px ${(y * progress).toFixed(2)}px`;
+      element.style.scale = String(1 + scale * progress);
+      element.style.rotate = `${(turn * progress).toFixed(2)}deg`;
+    });
+    art.style.opacity = String(1 - progress * 0.65);
   }
-  window.addEventListener('scroll', () => {
+  function scheduleShapes() {
     if (!framePending) { framePending = true; requestAnimationFrame(updateShapes); }
-  }, { passive: true });
+  }
+  window.addEventListener('scroll', scheduleShapes, { passive: true });
+  window.addEventListener('resize', scheduleShapes);
+  window.addEventListener('pageshow', scheduleShapes);
   reducedMotion.addEventListener('change', () => {
     if (reducedMotion.matches) document.body.classList.remove('motion-enabled');
     updateShapes();
