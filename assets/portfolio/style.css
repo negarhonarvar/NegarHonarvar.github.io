@@ -83,3 +83,8 @@
 .graph-controls button:hover{background:#fff}
 @media(max-width:640px){.cmri-graph{height:auto;padding:20px 24px 8px}.cmri-graph>svg{height:auto;max-height:290px}.cmri-graph>span{font-size:7px}.graph-controls{gap:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.motion-enabled .reveal{opacity:1;transform:none}.hero-art{transform:none!important;opacity:1!important}}
+
+.quadcopter-media{margin:0 0 28px;border-radius:16px;overflow:hidden;background:#e9edf1;border:1px solid #d8dfe7}
+.quadcopter-media video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#1b2027}
+.quadcopter-media figcaption{padding:12px 16px;font-size:9px;letter-spacing:1.4px;color:#566477;line-height:1.6}
+.quadcopter-project{background:linear-gradient(145deg,#edf2f6,#f6f7fa)}
