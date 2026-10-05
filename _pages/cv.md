@@ -9,20 +9,20 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="{{ site.baseurl }}/files/NegarHonarvar.pdf?v=20261005-career-dates" width="600" height="700" type='application/pdf'>
+<embed src="{{ site.baseurl }}/files/NegarHonarvar.pdf?v=20261005-job-title" width="600" height="700" type='application/pdf'>
 
 
 ## Work Experience
+
+### AI Engineer — Salamat Binesh Farda
+*September 2026–present*
+
+- Working closely with dentists to develop AI models for dental assistants, integrating clinical expertise into model development.
 
 ### AI Engineer — Amoot
 *January–September 2026 · Mashhad, Iran*
 
 - Developed phishing detection systems and contributed to an AI assistant fine-tuned for Farsi.
-
-### Dental AI Model Development — Salamt Binesh Farda
-*September 2026–present*
-
-- Working closely with dentists to develop AI models for dental assistants, integrating clinical expertise into model development.
 
 ### Network Security Assistant
 *Tehran, Iran*  
