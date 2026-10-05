@@ -59,6 +59,14 @@
   const trigger = document.getElementById('ask-trigger');
   const question = document.getElementById('question');
   const log = document.getElementById('chat-log');
+  const endpoint = window.NEGAR_ASSISTANT_ENDPOINT || '';
+  const submitButton = document.querySelector('#ask-form button');
+  let busy = false;
+  if (endpoint) {
+    document.querySelector('.preview-label').textContent = 'AI';
+    document.querySelector('.assistant-notice').textContent = 'Ask about Negar’s experience, education, and projects. AI answers use her public profile and may make mistakes. Topic buttons provide prepared profile answers.';
+    document.querySelector('.chat-footnote').textContent = 'Each question is processed by Cloudflare Workers AI. Avoid sharing sensitive information. This site does not store chats.';
+  }
   const preparedAnswers = {
     research: 'Negar’s research interests include graph neural networks, accelerated MRI reconstruction, image super-resolution and denoising, robotics, and deep learning in finance. Her completed B.Sc. thesis explored a dynamic attentive graph neural network for cardiac MRI reconstruction.\n\nSource: CV, Research Experience and Projects; personal website, Research Interests.',
     experience: 'Since September 2026, Negar has worked as an AI Engineer at Salamat Binesh Farda, collaborating closely with dentists to develop AI models for dental assistants. She previously worked as an AI Engineer at Amoot from January to September 2026, working on phishing detection and a Farsi AI assistant. Previously, she was a Network Security Assistant at Dotin (June–October 2023) and an intern at Dotin School (January–June 2023).\n\nSource: CV and updated work experience supplied by Negar.',
@@ -82,6 +90,7 @@
     log.append(paragraph);
     while (log.children.length > 24) log.firstElementChild.remove();
     log.scrollTop = log.scrollHeight;
+    return paragraph;
   }
   document.querySelectorAll('[data-topic]').forEach(button => {
     button.addEventListener('click', () => {
@@ -89,13 +98,42 @@
       message(preparedAnswers[button.dataset.topic]);
     });
   });
-  document.getElementById('ask-form').addEventListener('submit', event => {
+  document.getElementById('ask-form').addEventListener('submit', async event => {
     event.preventDefault();
     const text = question.value.trim();
-    if (!text) return;
+    if (!text || busy) return;
     message(text, true);
     question.value = '';
-    message('Live AI isn’t connected yet, so I can’t answer free-form questions. Choose one of the topics below for a prepared answer, or email Negar at negarhonarvar.se@gmail.com.');
-    question.focus();
+    if (!endpoint) {
+      message('Live AI isn’t connected yet. Choose a topic for a prepared answer, or email Negar at negarhonarvar.se@gmail.com.');
+      question.focus();
+      return;
+    }
+    busy = true;
+    submitButton.disabled = true;
+    const pending = message('Looking through Negar’s profile…');
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 25000);
+    try {
+      const response = await fetch(endpoint, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: text }), signal: controller.signal,
+        credentials: 'omit'
+      });
+      if (!response.ok) throw new Error(response.status === 429 ? 'limit' : 'unavailable');
+      const result = await response.json();
+      if (typeof result.answer !== 'string' || !result.answer.trim()) throw new Error('unavailable');
+      pending.textContent = result.answer;
+    } catch (error) {
+      pending.textContent = error.message === 'limit'
+        ? 'The assistant has reached its current question limit. Please try again later, or choose a topic for a prepared answer.'
+        : 'Live AI is temporarily unavailable. You can still explore the topic buttons or contact Negar directly.';
+    } finally {
+      clearTimeout(timer);
+      busy = false;
+      submitButton.disabled = false;
+      log.scrollTop = log.scrollHeight;
+      if (dialog.open) question.focus();
+    }
   });
 })();
