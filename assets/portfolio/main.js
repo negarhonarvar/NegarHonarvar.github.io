@@ -63,7 +63,6 @@
   const submitButton = document.querySelector('#ask-form button');
   let busy = false;
   if (endpoint) {
-    document.querySelector('.preview-label').textContent = 'AI';
     document.querySelector('.assistant-notice').textContent = 'Ask about Negar’s experience, education, and projects. AI answers use her public profile and may make mistakes. Topic buttons provide prepared profile answers.';
     document.querySelector('.chat-footnote').textContent = 'Each question is processed by Cloudflare Workers AI. Avoid sharing sensitive information. This site does not store chats.';
   }
