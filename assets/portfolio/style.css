@@ -88,3 +88,19 @@
 .quadcopter-media video{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#1b2027}
 .quadcopter-media figcaption{padding:12px 16px;font-size:9px;letter-spacing:1.4px;color:#566477;line-height:1.6}
 .quadcopter-project{background:linear-gradient(145deg,#edf2f6,#f6f7fa)}
+
+.trading-chart{margin:0 0 28px;padding:18px 14px 14px;border:1px solid #d4e0d7;border-radius:16px;background:linear-gradient(145deg,#f8fbf8,#eaf1ec);color:#365643}
+.trading-chart-heading{display:flex;justify-content:space-between;gap:8px;font-size:9px;font-weight:650;letter-spacing:1px}
+.trading-chart svg{display:block;width:100%;height:auto;margin-top:12px;overflow:visible}
+.trading-grid{fill:none;stroke:#cddbd1;stroke-width:1}
+.trading-axis{fill:#64766b;font-size:10px;letter-spacing:1px}
+.trading-area{fill:#78a58a;opacity:.12}
+.trading-price{fill:none;stroke:#57836a;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1}
+.trading-markers circle{stroke:#fff;stroke-width:2}
+.trading-markers text{fill:#44574b;font-size:10px;font-weight:650;letter-spacing:.7px}
+.trading-flow{display:flex;align-items:center;justify-content:space-between;gap:4px;font-size:10px}
+.trading-flow span{padding:6px;background:#ffffffb3;border:1px solid #d9e3dc;border-radius:7px;white-space:nowrap}
+.trading-flow b{font-weight:400;color:#83958a}
+.trading-chart figcaption{font-size:9px;color:#64766b;line-height:1.6;margin-top:12px}
+.motion-enabled .small-project.visible .trading-price{animation:draw-project-chart 2s ease both}
+@media(max-width:380px){.trading-chart{padding:12px 8px}.trading-flow{font-size:8px;gap:2px}.trading-flow span{padding:5px 3px}.trading-chart-heading{font-size:8px;letter-spacing:.5px}}
