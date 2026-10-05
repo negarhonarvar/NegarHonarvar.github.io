@@ -14,6 +14,16 @@ redirect_from:
 
 ## Work Experience
 
+### AI Engineer — Amoot
+*January 2026–present · Mashhad, Iran*
+
+- Developing phishing detection systems and contributing to an AI assistant fine-tuned for Farsi.
+
+### Dental AI Model Development — Salamt Binesh Farda
+*September 2025–present*
+
+- Working closely with dentists to develop AI models for dental assistants, integrating clinical expertise into model development.
+
 ### Network Security Assistant
 *Tehran, Iran*  
 *Jun. 2023 to Oct. 2023*  
@@ -24,10 +34,14 @@ redirect_from:
 
 ### Network Security Intern
 *Tehran, Iran*  
-*Feb. 2023 to Jun. 2023*  
+*Jan. 2023 to Jun. 2023*
 [Dotin School](https://www.dotin.ir/)
 
 - Completed an internship at Dotin School boot camp for Network Security.
 - Learned about different types of security vulnerabilities, how to identify risks, respond to incidents, and perform penetration testing.
 
+## Languages
 
+- **English:** Advanced proficiency (CEFR C1); TOEFL iBT 108/120.
+- **French:** Intermediate proficiency (CEFR B1); actively continuing language study.
+- **Spanish:** Currently developing language proficiency.
